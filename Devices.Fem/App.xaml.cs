@@ -47,9 +47,9 @@
 
 //    }
 //}
-using Device.Fan;
-using Devices.Fem.Models.Devices;
-using Devices.Fem.Services;
+using FanDevice;
+using FanDevice.Models.Devices;
+using FanDevice.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -61,7 +61,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Devices.Fem
+namespace FanDevice
 {
     public partial class App : Application
     {

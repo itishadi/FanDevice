@@ -1,4 +1,4 @@
-﻿using Devices.Fem.Models.Devices;
+﻿using FanDevice.Models.Devices;
 using Microsoft.Azure.Devices.Client;
 using Newtonsoft.Json;
 using System;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Documents;
 
-namespace Devices.Fem.Services
+namespace FanDevice.Services
 {
     public class DeviceManager
     {

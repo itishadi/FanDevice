@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Devices.Fem.Models.Devices;
+namespace FanDevice.Models.Devices;
 
 public class DeviceConfiquration
 {

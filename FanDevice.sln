@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devices.Fem", "Devices.Fem\Devices.Fem.csproj", "{047C9F67-C77C-4A5A-BC3E-874FCC68613F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanDevice", "Devices.Fem\FanDevice.csproj", "{047C9F67-C77C-4A5A-BC3E-874FCC68613F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace Devices.Fem.Services;
+namespace FanDevice.Services;
 
 public class NetworkManager
 {
