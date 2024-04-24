@@ -32,7 +32,7 @@
             <DoubleAnimation
                 Storyboard.TargetName="FanBlade"
                 Storyboard.TargetProperty="Angle"
-                From="0" To="360"
+                From="0" To="-360"
                 RepeatBehavior="Forever"
                 />
         </Storyboard>
