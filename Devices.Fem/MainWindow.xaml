@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
@@ -22,7 +23,8 @@
             </TextBlock>
         </Grid>
 
-        <TextBlock x:Name="ConnectivityStatus" Grid.Row="1" HorizontalAlignment="Center" Margin="5 20" Text="Disconnected" />
+        <TextBlock x:Name="ConnectivityStatus" Grid.Row="1" HorizontalAlignment="Center" Margin="5 1" Text="Disconnected" />
+        <Button x:Name="toggle" Content="Press" Grid.Row="2" HorizontalAlignment="Center" Margin="0,5,0,10" Width="70" Height="25"/>
     </Grid>
 
 
