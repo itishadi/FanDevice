@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Text;
+﻿using System.Net.NetworkInformation;
 using System.Threading.Tasks;
-using System.Windows.Controls;
 
 namespace FanDevice.Services;
-
 public class NetworkManager
 {
     public virtual async Task<string> CheckConnectionActivityAsync(string ipAddress = "8.8.8.8")

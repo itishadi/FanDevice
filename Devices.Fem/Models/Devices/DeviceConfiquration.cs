@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.DirectoryServices.ActiveDirectory;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FanDevice.Models.Devices;
-
+﻿namespace FanDevice.Models.Devices;
 public class DeviceConfiquration
 {
     private readonly string _connectionString;
